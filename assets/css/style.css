@@ -80,7 +80,7 @@ main {
 the three elements of the main content and replaced them with a single class
  styling all three. */
 
-.content-subsection {
+main section {
  /*styles sections nested inside the 'main' element */
     margin-bottom: 20px;
     padding: 50px;
@@ -90,11 +90,11 @@ the three elements of the main content and replaced them with a single class
     color: #ffffff;
 }
 
-.content-subsection img {
+main section img {
     max-height: 200px;
 }
 
-.content-subsection h2 {
+main section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -115,16 +115,16 @@ the three elements of the main content and replaced them with a single class
 /* Similarly to main section, replaced redundant styling classes
 and assigned a single one to three elements of  */
 
-.benefit-aside {
+aside section {
 /*styles sections nested within the 'aside' element */
     margin-bottom: 32px;
     color: #ffffff;
 }
-.benefit-aside h3 {     
+aside section h3 {     
     margin-bottom: 10px;
     text-align: center;
 }
-.benefit-aside img {
+aside section img {
  display: block;
     margin: 10px auto;
     max-width: 150px;
